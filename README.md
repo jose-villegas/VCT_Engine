@@ -125,7 +125,7 @@ A disvantage of this technique is the loss of precision averaging all the geomet
 
 </center>
 
-To reduce this issue my proposal utilizes a normal-weighted attenuation, where first the normal attenuation is calculated per every face of the voxel as follows:
+To reduce this issue our proposal utilizes a normal-weighted attenuation, where first the normal attenuation is calculated per every face of the voxel as follows:
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=D_{x,y,z}&space;=&space;(\hat{i}\cdot\Psi,&space;\hat{j}\cdot\Psi,&space;\hat{k}\cdot\Psi)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?D_{x,y,z}&space;=&space;(\hat{i}\cdot\Psi,&space;\hat{j}\cdot\Psi,&space;\hat{k}\cdot\Psi)" title="D_{x,y,z} = (\hat{i}\cdot\Psi, \hat{j}\cdot\Psi, \hat{k}\cdot\Psi)" /></a>
 
@@ -149,7 +149,7 @@ To generate accurate results during the cone tracing step the voxels need to be 
 
 The classic shadow mapping or alike techniques can be used to compute the voxels occlusion. The position of the voxel is projected in light space and the depth of the projected point is compared with the stored depth from the shadow map to determine if the voxel is occluded.
 
-My proposal also computes occlusion using raycasting within a volume. Any of the resulting volumes from the voxelization process can be used since the algorithm only needs to determine if a voxel exists at a certain position. To determine occlusion of a voxel, a ray is traced from the position of voxel in the direction of the light, the volume is sampled to determine if at the position of the ray there is a voxel, if this condition is true then the voxel is occluded.
+Our proposal also computes occlusion using raycasting within a volume. Any of the resulting volumes from the voxelization process can be used since the algorithm only needs to determine if a voxel exists at a certain position. To determine occlusion of a voxel, a ray is traced from the position of voxel in the direction of the light, the volume is sampled to determine if at the position of the ray there is a voxel, if this condition is true then the voxel is occluded.
 
 #### 2.2.1. Soft Voxel Shadows
 

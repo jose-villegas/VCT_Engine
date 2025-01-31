@@ -93,7 +93,7 @@ The radiance volume represents the maximum level of detail for the voxelized sce
     <th>A visualization of the voxel structure</th>
   </tr>
   <tr>
-    <td align="center"><img src="http://res.cloudinary.com/jose-villegas/image/upload/v1497571454/DVSGI/voxel_structure_dsmsvc.svg" style="width: 100%;"/></td>
+    <td align="center"><img src="https://res.cloudinary.com/jose-villegas/image/upload/v1738337277/vegllzlmgdmns9exq1hp.svg" style="width: 100%;"/></td>
   </tr>
 </table>
 

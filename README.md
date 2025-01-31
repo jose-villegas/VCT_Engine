@@ -53,7 +53,7 @@ Deferred voxel shading is a four-step real-time global illumination technique in
     <th>Technique Overview</th>
   </tr>
   <tr>
-    <td align="center"><img src="http://res.cloudinary.com/jose-villegas/image/upload/v1497489937/dvsgi_overview_vlucdk.svg" style="width: 100%; background-color: #cccccc;"/></td>
+    <td align="center"><img src="https://res.cloudinary.com/jose-villegas/image/upload/v1738340934/template_primary_k4ezzu.jpg" style="width: 100%; background-color: #cccccc;"/></td>
   </tr>
 </table>
 
@@ -121,7 +121,7 @@ A disvantage of this technique is the loss of precision averaging all the geomet
 
 <center>
 
-![](http://res.cloudinary.com/jose-villegas/image/upload/v1497413810/DVSGI/uneven_normals_n3klcb.svg)
+![](https://res.cloudinary.com/jose-villegas/image/upload/v1738341001/template_primary_irhebm.png)
 
 </center>
 
@@ -157,7 +157,7 @@ Instead of stopping the ray as soon a voxel is found, soft shadows can be approx
 
 | Hard Voxel Shadows | Soft Voxel Shadows |
 |:------------------:|:------------------:|
-<img src="http://res.cloudinary.com/jose-villegas/image/upload/v1497500701/DVSGI/hard_voxel_shadows_ovj32i.svg" style="width: 100%;"/>|<img src="http://res.cloudinary.com/jose-villegas/image/upload/v1497500702/DVSGI/soft_voxel_shadows_gcmlzm.svg" style="width: 100%;"/>
+<img src="https://res.cloudinary.com/jose-villegas/image/upload/v1738341260/template_primary_1_rztjor.png" style="width: 100%;"/>|<img src="https://res.cloudinary.com/jose-villegas/image/upload/v1738341259/template_primary_2_bbvzi9.png" style="width: 100%;"/>
 <img src="http://res.cloudinary.com/jose-villegas/image/upload/v1497500851/DVSGI/hard_traced_takadd.png" style="width: 100%;"/>|<img src="http://res.cloudinary.com/jose-villegas/image/upload/v1497500853/DVSGI/soft_traced_upabyg.png" style="width: 100%;"/>
 
 ### 2.3. Emission
@@ -190,7 +190,7 @@ The shape of the cone is meant to exploit the spatial and directional coherence 
     <th>Visual representation of a cone used for cone tracing</th>
   </tr>
   <tr>
-    <td align="center"><img src="http://res.cloudinary.com/jose-villegas/image/upload/v1497581558/DVSGI/cone_oyxusj.svg" style="width: 100%;"/></td>
+    <td align="center"><img src="https://res.cloudinary.com/jose-villegas/image/upload/b_rgb:FFFFFF/v1738340445/687474703a2f2f7265732e636c6f7564696e6172792e636f6d2f6a6f73652d76696c6c656761732f696d6167652f75706c6f61642f76313439373538313535382f44565347492f636f6e655f6f797875736a2e737667_1_mz48fw.png" style="width: 100%;"/></td>
   </tr>
 </table>
 
@@ -208,7 +208,7 @@ The distribution of the cones matches the shape of the BRDF, for a Blinn-Phong m
 
 | Diffuse Cones | Specular Cone | BRDF |
 |:-------------:|:-------------:|:----:|
-<img src="http://res.cloudinary.com/jose-villegas/image/upload/v1497581804/DVSGI/diffuse_cones_oo7hsx.svg" style="width: 100%;"/>|<img src="http://res.cloudinary.com/jose-villegas/image/upload/v1497581807/DVSGI/specular_cones_faycaz.svg" style="width: 100%;"/>|<img src="https://res.cloudinary.com/jose-villegas/image/upload/v1497581810/DVSGI/brdf_cones_b4hmdk.svg" style="width: 100%;"/>
+<img src="https://res.cloudinary.com/jose-villegas/image/upload/v1738341258/template_primary_3_whabjo.jpg" style="width: 100%;"/>|<img src="https://res.cloudinary.com/jose-villegas/image/upload/v1738341258/template_primary_2_owzhir.jpg" style="width: 100%;"/>|<img src="https://res.cloudinary.com/jose-villegas/image/upload/v1738341259/template_primary_1_oprqc8.jpg" style="width: 100%;"/>
 
 ### 4.2. Ambient Occlusion
 
@@ -223,7 +223,7 @@ Cone tracing can also be used to achieve soft shadows tracing a cone from the su
     <th>Cone Soft Shadows</th>
   </tr>
   <tr>
-    <td align="center"><img src="http://res.cloudinary.com/jose-villegas/image/upload/v1497585029/DVSGI/cone_shadow_jwx9pd.svg" style="width: 100%;"/></td>
+    <td align="center"><img src="https://res.cloudinary.com/jose-villegas/image/upload/v1738341257/template_primary_3_tfgjqy.png" style="width: 100%;"/></td>
   </tr>
 </table>
 
